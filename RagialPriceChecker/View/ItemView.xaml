@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="RagialPriceChecker.View.ItemView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="clr-namespace:RagialPriceChecker.View"
+    xmlns:vm="clr-namespace:RagialPriceChecker.ViewModel"             
+    MinWidth="350">
+
+    <Grid Margin="6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="100"/>
+            <ColumnDefinition Width="6"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="Auto"/>            
+        </Grid.RowDefinitions>
+        <!-- Name -->
+        <Label Grid.Row="0" Grid.Column="0"
+                Content="Name:" HorizontalAlignment="Left" />
+        <TextBox Grid.Row="0" Grid.Column="2"
+                     BorderThickness="2" HorizontalAlignment="Center" MinWidth="150"
+                     Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}" />
+        <!-- Target Price -->
+        <Label Grid.Row="2" Grid.Column="0"
+                Content="Target price:" HorizontalAlignment="Left" />
+        <TextBox Grid.Row="2" Grid.Column="2"
+                     BorderThickness="2" HorizontalAlignment="Center" MinWidth="150"
+                     Text="{Binding Path=TargetPrice, UpdateSourceTrigger=PropertyChanged}" />
+
+        <!-- Save & Delete buttons-->
+        <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center">
+            <Button Content="Save" Margin="10,0,10,0" HorizontalAlignment="Center"
+                    MinWidth="60" Command="{Binding Path=SaveCommand}"
+                    />
+            <Button Content="Delete" Margin="10,0,10,0" HorizontalAlignment="Center"
+                    MinWidth="60" Command="{Binding Path=DeleteCommand}"
+                    />
+        </StackPanel>
+
+
+    </Grid>
+
+</UserControl>

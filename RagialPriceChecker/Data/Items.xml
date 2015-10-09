@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+	<item name="A" targetPrice="100000000" />
+	<item name="B" targetPrice="100000000" />
+</items>

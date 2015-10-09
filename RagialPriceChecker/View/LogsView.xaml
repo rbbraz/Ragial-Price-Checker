@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="RagialPriceChecker.View.LogsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:vm="clr-namespace:RagialPriceChecker.ViewModel"
+             xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+    xmlns:vw="clr-namespace:RagialPriceChecker.View"
+    MinHeight="250" MinWidth="300">
+    
+    <Grid>
+        <!-- set properties on the log textbox - log should contain search ID and found items -->
+        <ListBox Margin="10,10,10,10" BorderThickness="1" 
+                  ItemsSource="{Binding Logs}" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Text}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</UserControl>

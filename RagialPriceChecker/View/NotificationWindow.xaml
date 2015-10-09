@@ -1,0 +1,57 @@
+﻿    <Window
+    x:Class="RagialPriceChecker.View.NotificationWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Title="Notification Popup" Width="300" SizeToContent="Height"
+  WindowStyle="None" AllowsTransparency="True" Background="Transparent" ShowInTaskbar="False" Topmost="True">
+
+    <Grid RenderTransformOrigin="0,1" >
+
+    <!-- Notification area -->
+    <Border BorderThickness="1" Background="Beige" BorderBrush="Black" CornerRadius="10">
+        <StackPanel Margin="20">
+                    <ListBox ItemsSource="{Binding Items}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock>
+                                <Hyperlink Command="{Binding GoToURLCommand}" 
+                                           CommandParameter="{Binding URL}">
+                                    <TextBlock Text="{Binding Name}" />
+                                    </Hyperlink>
+                            </TextBlock>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+          
+            <Button  BorderThickness="0" Background="White"                 
+                Content="Close" HorizontalAlignment="Center" Click="Button_Click_1" />
+        </StackPanel>
+    </Border>
+
+        
+
+        <!-- Animation -->
+    <Grid.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(ScaleTransform.ScaleY)">
+                        <SplineDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                        <SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+                    </DoubleAnimationUsingKeyFrames>
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)">
+                        <SplineDoubleKeyFrame KeyTime="0:0:23" Value="1"/>
+                        <SplineDoubleKeyFrame KeyTime="0:0:25" Value="0"/>
+                    </DoubleAnimationUsingKeyFrames>                    
+                </Storyboard>                
+            </BeginStoryboard>
+        </EventTrigger>
+    </Grid.Triggers>
+
+    <Grid.RenderTransform>
+        <ScaleTransform ScaleY="1" />
+    </Grid.RenderTransform>
+
+</Grid>
+
+</Window>

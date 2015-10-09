@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<searches>
+	<search url="1" autoStart="false" />
+	<search url="2" autoStart="true" />
+</searches>

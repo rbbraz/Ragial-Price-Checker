@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="RagialPriceChecker.DataAccess.BaseRepository" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.179098" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Interface Name="RagialPriceChecker.Models.ModelBase" Collapsed="False">
+    <Position X="0.5" Y="14.7" Width="1.123942" />
+    <Compartments />
+  </Interface>
+  <Class Name="RagialPriceChecker.Models.Search" Collapsed="False">
+    <Position X="0.5" Y="15.8" Width="1.636188" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.DataAccess.ItemRepository" Collapsed="False">
+    <Position X="0.5" Y="2.5" Width="3.530583" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.RelayCommand" Collapsed="False">
+    <Position X="0.5" Y="18.4" Width="2.35238" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.SearchHelpers.SearchWorker" Collapsed="False">
+    <Position X="0.5" Y="21.1" Width="2.026237" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.DataAccess.ModelBaseAddedEventArgs" Collapsed="False">
+    <Position X="0.5" Y="24.2" Width="3.413698" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.Transporters.ItemVend" Collapsed="False">
+    <Position X="0.5" Y="8.8" Width="1.201882" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.Properties.Resources" Collapsed="False">
+    <Position X="0.5" Y="25.9" Width="2.472174" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.DataAccess.SearchRepository" Collapsed="False">
+    <Position X="4.3" Y="2.5" Width="3.66921" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.Models.Item" Collapsed="False">
+    <Position X="0.5" Y="28.4" Width="1.358932" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.CommandViewModel" Collapsed="False">
+    <Position X="2" Y="8.8" Width="2.734254" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.AllItemsViewModel" Collapsed="False">
+    <Position X="5.1" Y="8.8" Width="2.872858" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.ItemViewModel" Collapsed="False">
+    <Position X="8.4" Y="8.8" Width="2.285553" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.Properties.Settings" Collapsed="False">
+    <Position X="0.5" Y="30.5" Width="1.828166" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.Log" Collapsed="False">
+    <Position X="0.5" Y="32.2" Width="1.106359" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.LogsViewModel" Collapsed="False">
+    <Position X="11.1" Y="8.8" Width="2.254806" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.View.AllSearchesView" Collapsed="False">
+    <Position X="0.5" Y="34.8" Width="2.282438" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.AllSearchesViewModel" Collapsed="False">
+    <Position X="13.7" Y="8.8" Width="3.213117" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.MainWindowViewModel" Collapsed="False">
+    <Position X="17.4" Y="8.8" Width="2.988737" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.View.ItemView" Collapsed="False">
+    <Position X="0.5" Y="36.4" Width="1.78443" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.ViewModelBase" Collapsed="False">
+    <Position X="0.5" Y="5.7" Width="3.051266" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Events" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.View.NotificationWindow" Collapsed="False">
+    <Position X="0.5" Y="37.9" Width="2.51028" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.View.It" Collapsed="False">
+    <Position X="0.5" Y="39.9" Width="2.194865" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.View.LogsView" Collapsed="False">
+    <Position X="0.5" Y="42.4" Width="1.78443" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.ViewModel.SearchViewModel" Collapsed="False">
+    <Position X="20.8" Y="8.8" Width="2.424128" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.View.AllItemsView" Collapsed="False">
+    <Position X="0.5" Y="44" Width="1.879176" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.View.SearchView" Collapsed="False">
+    <Position X="0.5" Y="45.5" Width="1.78862" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.App" Collapsed="False">
+    <Position X="0.5" Y="47.4" Width="1.78443" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="RagialPriceChecker.MainWindow" Collapsed="False">
+    <Position X="0.5" Y="48.9" Width="1.877887" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>
